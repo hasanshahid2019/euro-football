@@ -176,3 +176,53 @@ body{
     transform: rotate(-30deg);
     transition: transform 2s;
 }
+
+/* Media query break point */ 
+
+/* Mobile Device */
+
+@media only screen and (max-width:688px) {
+
+    .players {
+        justify-content: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        
+    }
+    .player, .ranking, .live-news, .half-width, .logo, .icon{
+        flex-direction: column;
+        text-align: center;
+        grid-row-gap: 10px;
+       
+        background-color: gray;
+    }
+    .player-banner img{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .player-info{
+        align-items: center;
+        text-align: center;
+    }
+    .logo-design{
+        display: grid;
+        text-align: center;
+    .logo-design img {
+        width: 100%;
+    
+    }
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container-head, .rank, .players {
+        background-color: palegreen;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    
+}
