@@ -67,7 +67,8 @@ body{
     height: 256px;
 }
 
-/* Part-3 logo- icon */
+/* --- Part-3 logo- icon --- */
+
 .logo img{
     width: 483px;
     height: 110px;
@@ -94,4 +95,47 @@ body{
 }
 .fa-instagram-square{
     color: #8a3ab9;
+}
+
+/* ----- Bonus part -1: FIFA 2020-21 PLAYERS RANKINGS -----*/ 
+
+.rank{
+    background-color: indianred;
+    margin-top: 70px;
+    height: 250px;
+    text-align: center;
+    color: purple;
+    
+    
+}
+.top-rankings{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 100px;
+}
+.ranking{
+    display: flex;
+    align-items: center;
+    
+}
+.footballers img{
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.footballers{
+    display: flex;
+    flex-direction: column;
+
+}
+.footballers a{
+    text-decoration: none;
+    background-image: khaki;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid gold;
+    padding: 10px;
 }
