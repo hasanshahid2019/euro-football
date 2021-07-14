@@ -68,3 +68,30 @@ body{
 }
 
 /* Part-3 logo- icon */
+.logo img{
+    width: 483px;
+    height: 110px;
+}
+.logo-design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.fab{
+    font-size: 40px;
+    padding-left: 8px;
+}
+.fa-youtube{
+    color: #ff0000;
+}
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-linkedin{
+    color: #0072b1;
+}
+.fa-instagram-square{
+    color: #8a3ab9;
+}
